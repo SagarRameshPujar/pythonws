@@ -1,4 +1,5 @@
 #Program to find electricity bill
+# This program is to learn if else statements
 units = int(input("Enter the used units: "))
 min_bill = 50
 
