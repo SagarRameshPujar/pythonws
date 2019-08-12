@@ -1,18 +1,25 @@
-# Program to check given number is prime or not
+#Program to find the given number is prime or not
 
-num = int(input("Enter the number to check prime :"))
-
-is_prime = True
+num = int(input("Enter the number: "))
+flag = True
 
 if num > 1:
-    for i in range(2, num// 2 + 1):
+    for i in range(2,num // 2+1):
         if num % i == 0:
-            is_prime = False
+            flag = False
             break
 else:
-    is_prime = False
+    flag = False
 
-if is_prime:
-    print(f"Given number :{num} is prime")
+if flag:
+    print(f"Given number is {num} is prime")
 else:
-    print(f"Given number :{num} is not a prime")
+    print(f"Given number is {num} not prime")
+
+
+        
+
+
+        
+    
+
